@@ -10,6 +10,9 @@
   user-select: none;
   -o-user-select: none;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-color: #c8c8c8;
   overflow: scroll;
