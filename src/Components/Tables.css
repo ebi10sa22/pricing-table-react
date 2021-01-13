@@ -1,0 +1,31 @@
+.table {
+  width: 28%;
+  height: 85vh;
+  background: rgb(57, 165, 182);
+  background: linear-gradient(
+    to bottom,
+    rgba(57, 165, 182, 1) 12%,
+    rgba(95, 173, 185, 1) 37%,
+    rgba(118, 204, 218, 1) 86%
+  );
+  box-shadow: 0 10px 10px rgb(202, 200, 200);
+  z-index: 2;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+
+@media (max-width: 780px) {
+  .table {
+    width: 70%;
+    margin-top: 20px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 360px) {
+  .table {
+    width: 95%;
+    margin-top: 20px;
+    height: 550px;
+  }
+}
